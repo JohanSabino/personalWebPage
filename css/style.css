@@ -1,0 +1,176 @@
+body {
+  background-color: #130013;
+  background-image: url("endless-constellation.png");
+  background-size: cover;
+}
+/*@media only screen and (max-width: 768px) {
+  body {
+    background-color: rgb(237, 7, 7);
+    background-image: none;
+  }
+}
+*/
+/*INDEX.HTML*/
+.header {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+.header ul {
+  list-style: none;
+  padding: 0;
+  background-color: #27002364;
+  overflow: hidden;
+  margin: 0;
+}
+
+.header ul li {
+  display: inline-block;
+}
+.header ul li a {
+  display: block;
+  padding: 15px;
+}
+.header ul li a:hover {
+  background-color: #130013;
+}
+
+a:link,
+a:visited {
+  color: #f5ebe0;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #d5bdaf;
+  text-decoration: underline;
+}
+
+#pic {
+  border-radius: 20%;
+  display: flex;
+  margin: 20px auto;
+  box-shadow: 5px, 5px, 5px, #111;
+  width: 350px;
+}
+.presentation {
+  width: 500px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  margin-top: 4%;
+  padding: 20px;
+  color: #f5ebe0;
+  border-radius: 7%;
+  box-shadow: 5px 10px 20px 0 #000;
+}
+.presentation:hover {
+  width: 500px;
+  background: rgba(10, 10, 10, 0.4);
+  margin: auto;
+  margin-top: 4%;
+  padding: 20px;
+  color: #f5ebe0;
+  border-radius: 7%;
+  box-shadow: 5px 10px 20px 0 rgb(26, 26, 26);
+}
+
+.presentation h1 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 7;
+}
+.presentation h2 {
+  text-align: center;
+}
+.presentation p {
+  font-family: "Arvo", serif;
+  text-align: justify;
+}
+#know_me {
+  font-size: 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 7%;
+  padding: 10px;
+}
+.conections ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+.conections ul li {
+  margin: 5px auto;
+  display: inline-block;
+}
+.conections ul li a {
+  color: rgb(171, 171, 171);
+  font-size: 40px;
+  padding: 20px;
+}
+.conections ul li a:hover {
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+}
+/*INDEX.HTML*/
+
+.contact_div1 {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  background-color: #27002364;
+  overflow: hidden;
+  margin: 0;
+}
+.contact_body div h1 {
+  color: #f5ebe0;
+  font-size: 35px;
+  display: inline-block;
+  padding: auto;
+}
+
+.contact_body p {
+  color: #f5ebe0;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+}
+#contact_init {
+  font-size: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+}
+.contact_conections ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.contact_conections ul li {
+  display: inline-block;
+}
+.contact_conections ul li a {
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+}
+.contact_conections ul li a:hover {
+  background-color: #130013;
+}
+
+.contact_formdiv2 {
+  text-align: center;
+}
+.contact_formdiv2 label {
+  color: #f5ebe0;
+}
+/*CONTACT.HTML*/
+/*ABOUT.HTML*/
+
+/*ABOUT.HTML*/
