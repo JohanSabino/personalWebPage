@@ -119,19 +119,22 @@ a:active {
 }
 /*INDEX.HTML*/
 
-.contact_div1 {
+/*CONTACT.HTML*/
+#contact_header {
   text-align: center;
-  list-style: none;
-  padding: 0;
-  background-color: #27002364;
-  overflow: hidden;
-  margin: 0;
+  position: relative;
 }
-.contact_body div h1 {
+
+.contact_body {
+  width: auto;
+  padding: 0 auto;
+}
+
+.contact_body h1 {
   color: #f5ebe0;
   font-size: 35px;
+  text-align: center;
   display: inline-block;
-  padding: auto;
 }
 
 .contact_body p {
@@ -140,11 +143,13 @@ a:active {
   text-align: center;
   padding-top: 10px;
 }
+
 #contact_init {
   font-size: 30px;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 20px;
+  padding-left: 30px;
+  top: 25px;
+  position: absolute;
+  left: 0;
 }
 .contact_conections ul {
   list-style: none;
@@ -170,7 +175,6 @@ a:active {
 .contact_formdiv2 label {
   color: #f5ebe0;
 }
-/*CONTACT.HTML*/
 /*ABOUT.HTML*/
 
 /*ABOUT.HTML*/
