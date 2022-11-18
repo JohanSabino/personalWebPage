@@ -169,11 +169,14 @@ a:active {
   background-color: #130013;
 }
 
-.contact_formdiv2 {
-  text-align: center;
-}
 .contact_formdiv2 label {
   color: #f5ebe0;
+}
+.contact_formdiv2 input,
+textarea {
+  width: 200px;
+  padding-top: 2px;
+  margin: 0;
 }
 /*ABOUT.HTML*/
 
