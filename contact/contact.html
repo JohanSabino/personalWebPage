@@ -48,33 +48,53 @@
           <a href="https://github.com/JohanSabino" target="_blank">GitHub</a>
         </li>
         <br />
+        <br />
       </ul>
     </footer>
-    <div class="contact_formdiv2">
-      <form action="https://formsubmit.co/jasc9494@gmail.com" method="POST">
-        <label for="nombre">Nombre:</label>
-        <input
-          type="text"
-          name="name"
-          class="contact_forminput"
-          required
-        /><br />
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          name="email"
-          class="contact_forminput"
-          required
-        /><br />
-        <label for="mensaje">Mensaje: </label>
-        <textarea
-          name="mensaje"
-          class="contact_forminput"
-          cols="30"
-          rows="10"
-        ></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </div>
+    <fieldset>
+      <legend>&nbsp&nbspIngresa tus datos&nbsp&nbsp</legend>
+      <div class="contenedor">
+        <form
+          action="https://formsubmit.co/jasc9494@gmail.com"
+          method="POST"
+          autocomplete="off"
+        >
+          <div class="elemento">
+            <label for="name">Nombre:</label> <br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="contact_forminput"
+              placeholder="nombre y apellido"
+              required="true"
+            /><br />
+          </div>
+          <div class="elemento">
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="contact_forminput"
+              placeholder="juanito@mail.com"
+              required="true"
+            /><br />
+          </div>
+          <div class="elemento">
+            <label for="mensaje">Mensaje: </label> <br />
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              class="contact_forminput"
+              rows="5"
+              cols="30"
+            ></textarea
+            ><br />
+            <button type="submit" name="mensaje">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </fieldset>
   </body>
 </html>
