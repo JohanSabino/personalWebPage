@@ -139,7 +139,7 @@ a:active {
 
 .contact_body p {
   color: #f5ebe0;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   padding-top: 10px;
 }
@@ -147,7 +147,7 @@ a:active {
 #contact_init {
   font-size: 30px;
   padding-left: 30px;
-  top: 25px;
+  top: 30px;
   position: absolute;
   left: 0;
 }
@@ -163,32 +163,50 @@ a:active {
 .contact_conections ul li a {
   display: block;
   padding: 15px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .contact_conections ul li a:hover {
   background-color: #130013;
 }
 
+fieldset {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10%;
+  width: 400px;
+  margin: auto;
+}
+
 legend {
   text-align: center;
   color: #f5ebe0;
+  font-size: 25px;
 }
 
 .contenedor {
   margin: 10px auto;
   width: 400px;
   padding: 30px;
+  box-sizing: content-box;
 }
 .elemento {
   text-align: center;
 }
 .elemento label {
   color: #f5ebe0;
+  font-size: 20px;
 }
-.elemento input textarea {
-  width: 300px;
+.elemento textarea {
+  width: 400px;
   padding-top: 2px;
-  margin: 0;
+  margin: 10px;
+  border-radius: 10px;
+}
+.elemento input {
+  width: 300px;
+  height: 30px;
+  padding-top: 2px;
+  margin: 10px;
+  border-radius: 10px;
 }
 form button {
   margin: 0;
