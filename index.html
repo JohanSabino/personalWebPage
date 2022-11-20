@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
@@ -21,24 +23,26 @@
     ></script>
     <title>Johan Sabino Software Developer</title>
   </head>
-  <body>
-    <header class="header">
+  <body class="index_body">
+    <header id="index_header">
+      <h1>Johan Sabino</h1>
+    </header>
+    <nav class="home section" id="home">
       <ul>
         <li>
-          <a href="about/about.html" class="header__a"
-            >Conoce un poco más acerca de mí</a
-          >
+          <a #Skills>Skills</a>
         </li>
-        <li><a href="contact/contact.html" class="header__a">Contáctame</a></li>
+        <li>
+          <a #Skills>Soft Skills</a>
+        </li>
+        <li><a href="contact/contact.html">Cont&aacutectame</a></li>
       </ul>
-    </header>
-    <section>
+    </nav>
+    <section class="image">
+      <img src="https://i.imgur.com/oNwZjtR.png" alt="foto_personal" id="pic" />
+    </section>
+    <article>
       <div class="presentation">
-        <img
-          src="https://i.imgur.com/0wEZJaa.jpg"
-          alt="foto_personal"
-          id="pic"
-        />
         <h1><strong>Johan Andrés Sabino Castro</strong></h1>
         <h2>Desarrollador de Software Jr.</h2>
         <br />
@@ -66,7 +70,7 @@
         <br />
         <hr />
       </div>
-    </section>
+    </article>
     <br />
     <br />
     <br />
@@ -87,6 +91,5 @@
         </li>
       </ul>
     </footer>
-    <audio src="audio/Chill-Blue-Lo-Fi.mp3" type="audio/mp3" controls></audio>
   </body>
 </html>
