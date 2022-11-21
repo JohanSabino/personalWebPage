@@ -23,59 +23,49 @@
     ></script>
     <title>Johan Sabino Software Developer</title>
   </head>
-  <body class="index_body">
-    <header id="index_header">
+  <body>
+    <header class="index_header">
       <h1>Johan Sabino</h1>
+      <h2>Desarrollador de Software Jr.</h2>
     </header>
-    <nav class="home section" id="home">
-      <ul>
+    <nav id="home">
+      <ul class="home_section">
         <li>
-          <a #Skills>Skills</a>
+          <a href="#Skills">Skills</a>
         </li>
         <li>
-          <a #Skills>Soft Skills</a>
+          <a href="#Soft_Skills">Soft Skills</a>
         </li>
-        <li><a href="contact/contact.html">Cont&aacutectame</a></li>
+        <li><a href="#ContactMe">Cont&aacutectame</a></li>
       </ul>
     </nav>
-    <section class="image">
+    <br />
+    <script
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+      type="text/javascript"
+    ></script>
+    <div
+      class="badge-base LI-profile-badge"
+      data-locale="es_ES"
+      data-size="medium"
+      data-theme="dark"
+      data-type="VERTICAL"
+      data-vanity="johanandressabino"
+      data-version="v1"
+    >
+      <a
+        class="badge-base__link LI-simple-link"
+        href="https://co.linkedin.com/in/johanandressabino?trk=profile-badge"
+      ></a>
+    </div>
+    <aside class="image">
       <img src="https://i.imgur.com/oNwZjtR.png" alt="foto_personal" id="pic" />
-    </section>
-    <article>
-      <div class="presentation">
-        <h1><strong>Johan Andrés Sabino Castro</strong></h1>
-        <h2>Desarrollador de Software Jr.</h2>
-        <br />
-        <hr />
-        <br />
-        <p>
-          Soy estudiante de programaci&oacute;n con 11 meses de estudio con
-          &eacute;nfasis en Back-end, y con conocimientos claros en Front-end.
-          Psic&oacute;logo de profesi&oacute;n con maestr&iacute;a forense, pero
-          apasionado toda mi vida a la tecnolog&iacute;a, videojuegos e
-          innovaci&oacute;n. Rasgos de personalidad que permiten la constancia,
-          disciplina y deseo de mejora constante, indicando que estar&eacute;
-          durante mucho tiempo a la vanguardia de lo que el mundo con
-          relaci&oacute;n en tecnolog&iacute;a quiera tener con las ventajas de
-          la comprensi&oacute;n de la psiquis humana con la finalidad que mis
-          aportes en innovaci&oacute;n puedan ser atractivos e intuitivos.<br /><br />
-        </p>
-        <br />
-        <p id="know_me">
-          El hombre se autorrealiza en la misma medida en que se compromete con
-          el cumplimiento del sentido de su vida<br /><strong
-            >Viktor Frankl</strong
-          >
-        </p>
-        <br />
-        <hr />
-      </div>
-    </article>
-    <br />
-    <br />
-    <br />
-    <br />
-    <footer class="conections">
+      <p id="know_me">
+        El hombre se autorrealiza en la misma medida en que se compromete con el
+        cumplimiento del sentido de su vida<br /><strong>Viktor Frankl</strong>
+      </p>
       <ul>
         <li>
           <a href="https://github.com/JohanSabino" target="_blank"
@@ -90,6 +80,103 @@
           ></a>
         </li>
       </ul>
-    </footer>
+    </aside>
+    <article class="Skills" id="Skills">
+      <h1><strong>Skills</strong></h1>
+
+      <ul>
+        <li>Golang - Gin</li>
+        <li>JavaScript - VueJS</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Git - Git Flow</li>
+        <li>MySql & PostgreSql</li>
+        <li>Scrum Methodology</li>
+        <li>Software architecture</li>
+      </ul>
+
+      <br />
+
+      <br />
+    </article>
+
+    <div>
+      <article class="Soft_Skills" id="Soft_Skills">
+        <h1><strong>Soft Skills</strong></h1>
+
+        <ul>
+          <li>Assertive communication</li>
+          <li>High conflict resolution skills</li>
+          <li>Teamwork</li>
+          <li>Time management and commitment chaining</li>
+          <li>Responsibility and diligence</li>
+        </ul>
+
+        <br />
+
+        <br />
+      </article>
+    </div>
+    <article>
+      <iframe></iframe>
+    </article>
+    <div class="div_pattern">
+      <footer class="footer" id="ContactMe">
+        <div id="contact_header">
+          <header>
+            <h1>
+              <strong
+                >¡Qu&eacute; bueno que te haya interesado mi perfil!</strong
+              >
+            </h1>
+            <hr />
+            <p>Puedes escribirme un correo o llamarme. T&uacute; elijes</p>
+          </header>
+        </div>
+        <br />
+        <fieldset>
+          <legend>&nbsp&nbspIngresa tus datos&nbsp&nbsp</legend>
+          <div class="contenedor1_contact">
+            <form
+              action="https://formsubmit.co/jasc9494@gmail.com"
+              method="POST"
+              autocomplete="off"
+            >
+              <div class="elemento">
+                <label for="name">Nombre:</label> <br />
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="nombre y apellido"
+                  required="true"
+                /><br />
+              </div>
+              <div class="elemento">
+                <label for="email">Email:</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="juanito@mail.com"
+                  required="true"
+                /><br />
+              </div>
+              <div class="elemento">
+                <label for="mensaje">Mensaje:</label> <br />
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  rows="7"
+                  cols="40"
+                ></textarea
+                ><br />
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </fieldset>
+      </footer>
+    </div>
   </body>
 </html>
