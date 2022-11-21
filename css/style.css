@@ -33,194 +33,90 @@ body {
 
 /*INIT INDEX.HTML*/
 
-.index_body header {
+.index_header {
   width: 20%;
   float: left;
-  margin-top: 10px;
-  height: 65px;
-  background-color: rgb(209, 246, 247, 0.5);
-  border-radius: 15px 0 0 15px;
 }
-.index_body header h1 {
-  letter-spacing: 3px;
-  color: #4d6099;
-  width: 100%;
-  text-align: center;
+.index_header h1 {
   margin: 0;
-  padding-top: 15px;
+  padding: 0;
+  color: #1b253c;
+  background-color: rgb(209, 246, 247, 0.5);
+  border-radius: 15px 0 0 0;
+  text-align: center;
+}
+.index_header h2 {
+  margin: 0;
+  padding: 0 0 1px 0;
+  color: #1b253c;
+  background-color: rgb(209, 246, 247, 0.5);
+  border-radius: 0 0 0 15px;
+  text-align: center;
 }
 
-.home section {
+.home_section {
+  width: 80%;
   float: right;
-  width: 75%;
-}
-
-.index_body nav {
   font-size: 30px;
   text-align: center;
   padding-top: 10px;
 }
-.index_body nav ul {
-  list-style: none;
+
+.home_section {
   padding: 0;
   background-color: rgb(209, 246, 247, 0.5);
-  overflow: hidden;
   margin: 0;
   padding-right: 390px;
   border-radius: 0 15px 15px 0;
 }
-
-.index_body nav ul li {
+.home_section li {
+  list-style: none;
   display: inline-block;
 }
-.index_body nav ul li a {
+.home_section li a {
   display: block;
   padding: 15px;
-}
-.index_body nav ul li a:hover {
-  background-color: #1b253c;
-}
-
-a:link,
-a:visited {
+  text-decoration: none;
   color: #1b253c;
-  text-decoration: none;
+  transition: 0.5s;
 }
-
-a:hover,
-a:active {
-  color: #d1f6f7;
+.home_section li a:hover {
+  background-color: #4d6099;
+  border-radius: 5%;
+  letter-spacing: 3px;
   text-decoration: none;
+  list-style: none;
 }
-
 .image {
-  position: absolute;
   width: 400px;
   display: inline-block;
   left: 0;
 }
 #pic {
   width: 200px;
-  position: relative;
   margin-left: 80px;
   border-radius: 0 0 15% 15%;
   margin-top: 20px;
 }
-
-.presentation {
-  width: 900px;
-  background: rgba(0, 0, 0, 0.4);
-  margin: auto;
-  margin-top: 30px;
-  padding: 20px;
-  color: #f5ebe0;
-  border-radius: 7%;
-  box-shadow: 5px 10px 20px 0 #000;
-}
-.presentation:hover {
-  width: 900px;
-  background: rgba(10, 10, 10, 0.4);
-  margin: auto;
-  margin-top: 30px;
-  padding: 20px;
-  color: #f5ebe0;
-  border-radius: 7%;
-  box-shadow: 5px 10px 20px 0 rgb(26, 26, 26);
-}
-
-.presentation h1 {
-  font-family: "Abril Fatface", cursive;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 7;
-}
-.presentation h2 {
-  text-align: center;
-}
-.presentation p {
-  font-family: "Arvo", serif;
-  text-align: justify;
-}
-#know_me {
-  font-size: 10px;
-  text-align: center;
-  text-overflow: ellipsis;
-  text-transform: capitalize;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 7%;
-  padding: 10px;
-}
-.conections ul {
+.image ul {
   list-style: none;
   text-align: center;
   padding-left: 0;
 }
 
-.conections ul li {
+.image ul li {
   margin: 5px auto;
   display: inline-block;
 }
-.conections ul li a {
+.image ul li a {
   color: rgb(171, 171, 171);
   font-size: 40px;
   padding: 20px;
 }
-.conections ul li a:hover {
+.image ul li a:hover {
   color: white;
   font-size: 40px;
   padding: 20px;
-}
-/*FINAL INDEX.HTML*/
-
-/*INIT CONTACT.HTML*/
-#contact_header {
-  text-align: center;
-  position: relative;
-}
-
-.contact_body {
-  width: auto;
-  padding: 0 auto;
-}
-
-.contact_body header div h1 {
-  color: #f5ebe0;
-  font-size: 35px;
-  text-align: center;
-  display: inline-block;
-}
-
-.contact_body header p {
-  color: #f5ebe0;
-  font-size: 30px;
-  text-align: center;
-  padding-top: 10px;
-}
-
-#contact_init {
-  font-size: 30px;
-  padding-left: 30px;
-  top: 30px;
-  position: absolute;
-  left: 0;
-  text-decoration: none;
-}
-section ul {
-  list-style: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-section ul li {
-  display: inline-block;
-}
-section ul li a {
-  display: block;
-  padding: 15px;
-  font-size: 25px;
-}
-.contact_conections ul li a:hover {
-  background-color: #130013;
 }
 
 fieldset {
@@ -304,42 +200,4 @@ form button::before {
 form button:hover::before {
   height: 180%;
 }
-
-/*ABOUT.HTML*/
-
-/*ABOUT.HTML*/
-#about_header {
-  text-align: center;
-  position: relative;
-}
-
-body h1 {
-  color: #f5ebe0;
-  font-size: 35px;
-  text-align: center;
-  display: inline-block;
-}
-
-body p {
-  color: #f5ebe0;
-  font-size: 25px;
-  text-align: center;
-  padding-top: 10px;
-}
-
-#about_init {
-  font-size: 30px;
-  padding-left: 30px;
-  top: 25px;
-  position: absolute;
-  left: 0;
-}
-
-.about_body section {
-  display: block;
-  text-align: center;
-  color: #d5bdaf;
-}
-.about_body section img {
-  width: 400px;
-}
+/*Links*/

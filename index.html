@@ -23,28 +23,44 @@
     ></script>
     <title>Johan Sabino Software Developer</title>
   </head>
-  <body class="index_body">
-    <header id="index_header">
+  <body>
+    <header class="index_header">
       <h1>Johan Sabino</h1>
+      <h2>Desarrollador de Software Jr.</h2>
     </header>
-    <nav class="home section" id="home">
-      <ul>
+    <nav id="home">
+      <ul class="home_section">
         <li>
-          <a #Skills>Skills</a>
+          <a href="#Skills">Skills</a>
         </li>
         <li>
-          <a #Skills>Soft Skills</a>
+          <a href="#Skills">Soft Skills</a>
         </li>
-        <li><a href="contact/contact.html">Cont&aacutectame</a></li>
+        <li><a href="#Conta ctMe">Cont&aacutectame</a></li>
       </ul>
     </nav>
-    <section class="image">
+    <br />
+    <aside class="image">
       <img src="https://i.imgur.com/oNwZjtR.png" alt="foto_personal" id="pic" />
-    </section>
+      <ul>
+        <li>
+          <a href="https://github.com/JohanSabino" target="_blank"
+            ><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/johanandressabino/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin fa-lg" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </aside>
     <article>
       <div class="presentation">
         <h1><strong>Johan Andrés Sabino Castro</strong></h1>
-        <h2>Desarrollador de Software Jr.</h2>
+
         <br />
         <hr />
         <br />
@@ -71,25 +87,62 @@
         <hr />
       </div>
     </article>
-    <br />
-    <br />
-    <br />
-    <br />
-    <footer class="conections">
-      <ul>
-        <li>
-          <a href="https://github.com/JohanSabino" target="_blank"
-            ><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/johanandressabino/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin fa-lg" aria-hidden="true"></i
-          ></a>
-        </li>
-      </ul>
+    <article>
+      <iframe src="" class="iframe_article1"></iframe>
+    </article>
+    <footer class="contact_body" id="ContactMe">
+      <div id="contact_header">
+        <header>
+          <h1>
+            <strong>¡Qu&eacute; bueno que te haya interesado mi perfil!</strong>
+          </h1>
+
+          <hr />
+          <p>Puedes escribirme un correo o llamarme. T&uacute; elijes</p>
+        </header>
+      </div>
+      <fieldset>
+        <legend>&nbsp&nbspIngresa tus datos&nbsp&nbsp</legend>
+        <div class="contenedor1_contact">
+          <form
+            action="https://formsubmit.co/jasc9494@gmail.com"
+            method="POST"
+            autocomplete="off"
+          >
+            <div class="elemento">
+              <label for="name">Nombre:</label> <br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="nombre y apellido"
+                required="true"
+              /><br />
+            </div>
+            <div class="elemento">
+              <label for="email">Email:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="juanito@mail.com"
+                required="true"
+              /><br />
+            </div>
+            <div class="elemento">
+              <label for="mensaje">Mensaje:</label> <br />
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="7"
+                cols="40"
+              ></textarea
+              ><br />
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </fieldset>
     </footer>
   </body>
 </html>
