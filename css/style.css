@@ -208,15 +208,6 @@ aside {
   top: 100px;
   position: fixed;
 }
-#appMarvel {
-  position: relative;
-  width: 80%;
-  height: 400px;
-  left: 10%;
-  top: 300px;
-  border: 1px solid black;
-  z-index: 1;
-}
 
 footer h1 {
   text-align: center;
@@ -312,7 +303,7 @@ form button:hover::before {
 
 header a {
   text-decoration: none;
-  color: #87a5fb;
+  color: #1b253c;
   font-size: 25px;
 }
 
@@ -337,7 +328,16 @@ h2 {
   grid-template-columns: repeat(5, 1fr);
   gap: 40px;
 }
+.Apis {
+  display: block;
+  width: 100%;
+}
 
+.Apis ul li {
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+}
 .appMovies .movie {
   text-align: center;
   color: #d1f6f7;
