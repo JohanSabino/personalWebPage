@@ -46,10 +46,58 @@
   .home_section li a #ContacMe {
     grid-column: 3;
   }
-}
-.badge-base .LI-profile-badge {
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  .badge-base .LI-profile-badge {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  aside {
+    width: 200px;
+    top: 50px;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #pic {
+    margin: 0;
+    width: 100px;
+    margin-left: 45px;
+    border-radius: 0 0 15% 15%;
+    margin-top: 120px;
+  }
+  #know_me {
+    font-size: 9px;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 7%;
+    padding: 10px;
+    margin: 10px 0;
+    color: #d1f6f7;
+  }
+  .image ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  .image ul li {
+    margin: 5px auto;
+    display: inline-block;
+  }
+  .image ul li a {
+    color: #1b253c;
+    font-size: 40px;
+    padding: 20px;
+    transition: 0.5s;
+  }
+  .image ul li a:hover {
+    color: #d1f6f7;
+    font-size: 40px;
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
