@@ -9,12 +9,16 @@
   }
   .index_header h1 {
     grid-row: 1;
+    font-size: 25px;
+    padding: 10px;
   }
 
   .index_header h2 {
     grid-row: 2;
-    font-size: medium;
+    font-size: 13px;
     border-radius: 0 0 0px 15px;
+    content: normal;
+    padding: 2px;
   }
   .home {
     display: flow-root;
