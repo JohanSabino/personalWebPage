@@ -128,6 +128,7 @@ aside {
   color: #1b253c;
   font-size: 40px;
   padding: 20px;
+  transition: 0.5s;
 }
 .image ul li a:hover {
   color: #d1f6f7;
@@ -135,6 +136,55 @@ aside {
   padding: 20px;
 }
 
+.appMovies .movie {
+  text-align: center;
+  color: #d1f6f7;
+}
+.Apis {
+  position: relative;
+  max-width: 20%;
+  text-align: center;
+}
+
+.Apis ul {
+  position: absolute;
+  left: 10px;
+}
+
+.Apis h3 {
+  margin-top: 15px;
+  font-size: 25px;
+}
+.Apis ul li {
+  margin: 10px 20px 0px 0px;
+  background-color: #1b253c;
+  padding: 15px;
+  list-style: none;
+  border-radius: 15px;
+  text-decoration: none;
+  border: 1px solid #d1f6f7;
+  transition: 0.5s;
+}
+.Apis ul li:hover {
+  margin: 10px 20px 0px 0px;
+  background-color: #d1f6f7;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #1b253c;
+}
+.Apis ul li a {
+  text-decoration: none;
+  color: #d1f6f7;
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Apis ul li a:hover {
+  text-decoration: none;
+  color: #1b253c;
+  font-size: 20px;
+  font-weight: bold;
+}
 .Skills {
   position: relative;
   float: right;
@@ -319,6 +369,10 @@ h2 {
   color: #d1f6f7;
 }
 
+.footer p {
+  font-size: 20px;
+  text-align: center;
+}
 .appMovies {
   width: 90%;
   max-width: 1000px;
@@ -327,20 +381,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 40px;
-}
-.Apis {
-  display: block;
-  width: 100%;
-}
-
-.Apis ul li {
-  position: relative;
-  list-style: none;
-  text-decoration: none;
-}
-.appMovies .movie {
-  text-align: center;
-  color: #d1f6f7;
 }
 
 .appMovies .movie .title {
