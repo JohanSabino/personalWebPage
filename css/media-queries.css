@@ -1,4 +1,7 @@
 @media (max-width: 767px) {
+  html {
+    max-width: max-content;
+  }
   .index_header {
     grid-template-columns: 2fr;
     grid-template-rows: 1fr;
