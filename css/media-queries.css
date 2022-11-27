@@ -1,11 +1,11 @@
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .index_header {
     grid-template-columns: 2fr;
     grid-template-rows: 1fr;
     position: fixed;
     display: block;
     box-sizing: content-box;
-    
+    padding-bottom: 2.9rem;
   }
   .index_header h1 {
     grid-row: 1;
@@ -14,7 +14,7 @@
   .index_header h2 {
     grid-row: 2;
     font-size: medium;
-    border-radius: 0 0 15px 0px;
+    border-radius: 0 0 0px 15px;
   }
   .home {
     display: flow-root;
@@ -24,27 +24,32 @@
     left: 20%;
     grid-template-columns: 3fr;
     grid-template-rows: 1fr;
-  } 
-    .home_section li a {
-      grid-template-columns: 3fr;
-      grid-template-rows: 1fr;
-      font-size: 25px;
-    }
-
-    .home_section li a #Skillss {
-      grid-column: 1;
-    }
-    .home_section li a #Soft_Skills {
-      grid-column: 2;
-    }
-    .home_section li a #ContacMe {
-      grid-column: 3;
-    }
+    margin: 5px 0 0 0;
+    padding: 0;
+    background-color: rgb(209, 246, 247, 0.5);
+    padding-right: 390px;
+    padding-bottom: 2.9rem;
+    border-radius: 0 15px 15px 0;
   }
-  .badge-base .LI-profile-badge {
-    grid-template-columns: 1fr;
+  .home_section li a {
+    grid-template-columns: 3fr;
     grid-template-rows: 1fr;
+    font-size: 21px;
   }
+
+  .home_section li a #Skillss {
+    grid-column: 1;
+  }
+  .home_section li a #Soft_Skills {
+    grid-column: 2;
+  }
+  .home_section li a #ContacMe {
+    grid-column: 3;
+  }
+}
+.badge-base .LI-profile-badge {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 @media only screen and (max-width: 768px) {
