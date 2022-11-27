@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 767px) {
   .index_header {
     grid-template-columns: 2fr;
     grid-template-rows: 1fr;
@@ -34,7 +34,7 @@
   .home_section li a {
     grid-template-columns: 3fr;
     grid-template-rows: 1fr;
-    font-size: 21px;
+    font-size: 22px;
   }
 
   .home_section li a #Skillss {
@@ -46,12 +46,13 @@
   .home_section li a #ContacMe {
     grid-column: 3;
   }
-  .badge-base .LI-profile-badge {
+  .badge-base {
+    margin-top: 30px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
   aside {
-    width: 200px;
+    width: 250px;
     top: 50px;
     left: 0;
     margin: 0;
@@ -59,20 +60,20 @@
   }
   #pic {
     margin: 0;
-    width: 100px;
+    width: 150px;
     margin-left: 45px;
     border-radius: 0 0 15% 15%;
     margin-top: 120px;
   }
   #know_me {
-    font-size: 9px;
+    font-size: 9.5px;
     text-align: center;
     text-overflow: ellipsis;
     text-transform: capitalize;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 7%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0 0 0px;
     color: #d1f6f7;
   }
   .image ul {
@@ -80,7 +81,7 @@
     text-align: center;
     padding-left: 0;
     margin-top: 15px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .image ul li {
@@ -98,10 +99,170 @@
     font-size: 40px;
     padding: 20px;
   }
-}
+  .Apis {
+    width: 150px;
+    text-align: center;
+  }
 
-@media only screen and (max-width: 768px) {
-  body {
-    background-image: url("https://i.imgur.com/e0HK3u9.png");
+  .Apis ul {
+    left: -0;
+  }
+
+  .Apis h3 {
+    color: #f0feff;
+    width: 150px;
+    font-size: 13px;
+    margin-left: 50px;
+  }
+  .Apis ul li {
+    width: 130px;
+    margin: 15px 20px 0px 30px;
+    background-color: #1b253c;
+    padding: 15px;
+    list-style: none;
+    border-radius: 15px;
+    text-decoration: none;
+    border: 1px solid #d1f6f7;
+    transition: 0.5s;
+  }
+  .Apis ul li:hover {
+    margin: 10px 20px 0px 0px;
+    background-color: #d1f6f7;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #1b253c;
+  }
+  .Apis ul li a {
+    text-decoration: none;
+    color: #d1f6f7;
+    transition: 0.5s;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .Apis ul li a:hover {
+    text-decoration: none;
+    color: #1b253c;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .Skills {
+    position: absolute;
+    right: 0px;
+    bottom: 117px;
+    left: 280px;
+  }
+  .Skills ul {
+    width: 200px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px 30px 30px 60px;
+    color: #f5ebe0;
+    border-radius: 7%;
+    box-shadow: 5px 10px 20px 0 #000;
+    border: inset #4d6099;
+    border-width: 5px 5px 1px 5px;
+    margin: auto;
+    list-style: none;
+    line-height: 25px;
+    text-align: right;
+  }
+  .Soft_Skills {
+    position: absolute;
+    left: 20px;
+    top: 750px;
+  }
+  .Soft_Skills ul {
+    width: 200px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px 30px 30px 60px;
+    color: #f5ebe0;
+    border-radius: 7%;
+    box-shadow: 5px 10px 20px 0 #000;
+    border: inset #4d6099;
+    border-width: 5px 5px 1px 5px;
+    margin: auto;
+    list-style: none;
+    line-height: 25px;
+    text-align: left;
+  }
+  .div_pattern {
+    width: 100px;
+    top: 450px;
+  }
+  .div_pattern footer p {
+    text-align: center;
+    left: 15px;
+  }
+  .badge-base {
+    width: 300px;
+  }
+  .badge-base {
+    position: absolute;
+    right: -60px;
+    top: 100px;
+    position: fixed;
+  }
+
+  footer h1 p {
+  }
+
+  fieldset {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    max-width: 300px;
+    margin: 0 0 30px 45px;
+  }
+
+  legend {
+    text-align: center;
+    color: #f5ebe0;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+  }
+
+  .footer h1 {
+    padding-top: 100px;
+  }
+  .contenedor1_contact {
+    margin: 40px auto 10px;
+    width: 300px;
+    padding: 30px;
+    box-sizing: content-box;
+  }
+  .elemento {
+    text-align: center;
+  }
+  .elemento label {
+    color: #f5ebe0;
+    font-size: 20px;
+  }
+  .elemento textarea {
+    width: 300px;
+    padding-top: 2px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .elemento input {
+    width: 300px;
+    height: 30px;
+    padding-top: 2px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  form button {
+    margin: 0;
+    padding: 3px;
+    width: 150px;
+    letter-spacing: 3px;
+    background: none;
+    color: #d5bdaf;
+    border-radius: 7%;
+    border-color: #d5bdaf;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
   }
 }
