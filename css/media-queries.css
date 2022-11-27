@@ -1,0 +1,54 @@
+@media (max-width: 800px) {
+  .index_header {
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    position: fixed;
+    display: block;
+    box-sizing: content-box;
+    
+  }
+  .index_header h1 {
+    grid-row: 1;
+  }
+
+  .index_header h2 {
+    grid-row: 2;
+    font-size: medium;
+    border-radius: 0 0 15px 0px;
+  }
+  .home {
+    display: flow-root;
+  }
+  .home_section {
+    display: block;
+    left: 20%;
+    grid-template-columns: 3fr;
+    grid-template-rows: 1fr;
+  } 
+    .home_section li a {
+      grid-template-columns: 3fr;
+      grid-template-rows: 1fr;
+      font-size: 25px;
+    }
+
+    .home_section li a #Skillss {
+      grid-column: 1;
+    }
+    .home_section li a #Soft_Skills {
+      grid-column: 2;
+    }
+    .home_section li a #ContacMe {
+      grid-column: 3;
+    }
+  }
+  .badge-base .LI-profile-badge {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("https://i.imgur.com/e0HK3u9.png");
+  }
+}
