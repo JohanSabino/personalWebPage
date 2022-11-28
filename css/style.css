@@ -32,138 +32,154 @@ body {
 
 .index_header {
   position: fixed;
-  width: 20%;
-  float: left;
-  z-index: 10000;
-}
-.index_header h1 {
-  margin: 5px 0 0 0;
-  padding: 0;
-  color: #1b253c;
-  background-color: rgb(209, 246, 247, 0.5);
-  border-radius: 15px 0 0 0;
-  text-align: center;
-}
-.index_header h2 {
-  margin: 0;
-  padding: 0 0 1px 0;
-  color: #1b253c;
-  background-color: rgb(209, 246, 247, 0.5);
-  border-radius: 0 0 0 15px;
-  text-align: center;
-}
-
-.home {
   width: 100%;
-}
-
-.home_section {
+  height: auto;
   z-index: 10000;
-  position: fixed;
-  left: 20%;
-  width: 60%;
-  height: 65px;
-  float: left;
-  font-size: 30px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(209, 246, 247, 0.5);
+}
+.titles {
+  width: 20%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  color: #1b253c;
   text-align: center;
-  padding-top: 10px;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  border-radius: 0 5px 5px 0;
 }
 
-.home_section {
-  margin: 5px 0 0 0;
+.titles h1,
+h2 {
+  margin: 0;
   padding: 0;
-  background-color: rgb(209, 246, 247, 0.5);
-  padding-right: 390px;
-  border-radius: 0 15px 15px 0;
 }
-.home_section li {
+
+.titles h2 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.index_header nav {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.index_header nav ul {
+  width: 80%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.index_header nav li {
+  height: 100%;
+  margin: auto 0;
   list-style: none;
   display: inline-block;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
-.home_section li a {
-  display: block;
+.index_header nav li a {
+  font-size: 30px;
+  display: inline-block;
   padding: 15px;
   text-decoration: none;
   color: #1b253c;
   transition: 0.5s;
 }
-.home_section li a:hover {
+.index_header nav li a:hover {
   background-color: #4d6099;
   border-radius: 5%;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-decoration: none;
   list-style: none;
-  border: 1px inset;
+}
+
+.content_main {
+  width: 94%;
+  margin: 0 2%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  gap: 2%;
 }
 aside {
-  width: 400px;
-  left: 0;
-  margin: 0;
+  width: 25%;
+}
+aside div {
+  text-align: center;
 }
 #pic {
   margin: 0;
-  width: 200px;
-  margin-left: 80px;
+  width: 40%;
   border-radius: 0 0 15% 15%;
   margin-top: 60px;
 }
-.image ul {
+#know_me {
+  font-size: 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 7%;
+  padding: 10px;
+  margin: 10px 0;
+  color: #d1f6f7;
+}
+.ul_social {
   list-style: none;
   text-align: center;
   padding-left: 0;
-  margin-top: 15px;
-  margin-left: -45px;
+  margin: auto;
 }
 
-.image ul li {
+.ul_social li {
   margin: 5px auto;
   display: inline-block;
 }
-.image ul li a {
+.ul_social li a {
   color: #1b253c;
   font-size: 40px;
   padding: 20px;
   transition: 0.5s;
 }
-.image ul li a:hover {
+.ul_social li a:hover {
   color: #d1f6f7;
   font-size: 40px;
   padding: 20px;
 }
 
-.appMovies .movie {
-  text-align: center;
-  color: #d1f6f7;
-}
 .Apis {
-  position: relative;
-  max-width: 20%;
   text-align: center;
-}
-
-.Apis ul {
-  position: absolute;
-  left: 10px;
 }
 
 .Apis h3 {
   margin-top: 15px;
   font-size: 25px;
 }
+.Apis ul {
+  margin: 20px 70px;
+  padding: 0;
+}
 .Apis ul li {
-  margin: 10px 20px 0px 0px;
   background-color: #1b253c;
-  padding: 15px;
+  padding: 15px 0;
+  margin: 5px 0;
   list-style: none;
   border-radius: 15px;
   text-decoration: none;
+  box-sizing: border-box;
   border: 1px solid #d1f6f7;
   transition: 0.5s;
 }
 .Apis ul li:hover {
-  margin: 10px 20px 0px 0px;
   background-color: #d1f6f7;
   padding: 15px;
   border-radius: 15px;
@@ -182,15 +198,24 @@ aside {
   font-size: 20px;
   font-weight: bold;
 }
-.Skills {
-  position: relative;
-  float: right;
-  right: 850px;
-  bottom: 380px;
+
+.article_main {
+  width: 75%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
+
+.Skills {
+  margin: 20px;
+}
+
+.Skills h1 {
+  margin: 20px;
+}
+
 .Skills ul {
-  width: 500px;
-  height: 100%;
   background: rgba(0, 0, 0, 0.4);
   padding: 30px 30px 30px 60px;
   color: #f5ebe0;
@@ -201,17 +226,14 @@ aside {
   margin: auto;
   list-style: none;
   line-height: 25px;
-  text-align: right;
 }
 .Soft_Skills {
-  position: relative;
-  float: right;
-  left: 50px;
-  top: 0px;
+  margin: 50% 20px 0 20px;
+}
+.Soft_Skills h1 {
+  margin: 20px;
 }
 .Soft_Skills ul {
-  width: 500px;
-  height: 100%;
   background: rgba(0, 0, 0, 0.4);
   padding: 30px 30px 30px 60px;
   color: #f5ebe0;
@@ -222,30 +244,8 @@ aside {
   margin: auto;
   list-style: none;
   line-height: 25px;
-  text-align: left;
 }
 
-#know_me {
-  font-size: 10px;
-  text-align: center;
-  text-overflow: ellipsis;
-  text-transform: capitalize;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 7%;
-  padding: 10px;
-  margin: 10px 0;
-  color: #d1f6f7;
-}
-
-.div_pattern {
-  position: relative;
-}
-.div_pattern footer {
-  width: 500px;
-  position: absolute;
-  left: 35%;
-  top: 200px;
-}
 .badge-base {
   width: 400px;
 }
@@ -255,15 +255,20 @@ aside {
   top: 100px;
   position: fixed;
 }
-
-footer h1 {
+.div_pattern {
+  width: 100%;
+}
+.div_pattern footer {
+}
+footer h1,
+p {
   text-align: center;
 }
 fieldset {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10%;
-  max-width: 400px;
-  margin: 0 0 30px 0;
+  width: 20%;
+  margin: auto;
 }
 
 legend {
@@ -274,11 +279,8 @@ legend {
   border-radius: 10%;
 }
 
-.footer h1 {
-  padding-top: 100px;
-}
 .contenedor1_contact {
-  margin: 40px auto 10px;
+  margin: auto;
   width: 400px;
   padding: 30px;
   box-sizing: content-box;
@@ -291,7 +293,7 @@ legend {
   font-size: 20px;
 }
 .elemento textarea {
-  width: 400px;
+  width: 100%;
   padding-top: 2px;
   margin: 10px;
   border-radius: 10px;
