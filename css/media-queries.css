@@ -63,7 +63,7 @@
     padding: 5px;
     text-decoration: none;
     color: #1b253c;
-    transition: 0.5s;
+    transition: 0.2s;
   }
   .index_header nav li a:hover {
     background-color: #4d6099;
@@ -132,27 +132,28 @@
   }
 
   .Apis h3 {
-    margin-top: 15px;
-    font-size: 25px;
+    margin-top: 5px;
+    font-size: 15px;
   }
   .Apis ul {
-    margin: 20px 70px;
+    margin: 0;
     padding: 0;
   }
   .Apis ul li {
     background-color: #1b253c;
-    padding: 15px 0;
-    margin: 5px 0;
+    padding: 2px;
+    margin: 10px 0;
     list-style: none;
     border-radius: 15px;
-    text-decoration: none;
     box-sizing: border-box;
     border: 1px solid #d1f6f7;
-    transition: 0.5s;
+    transition: 0.2s;
   }
   .Apis ul li:hover {
     background-color: #d1f6f7;
-    padding: 15px;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 2px;
     border-radius: 15px;
     border: 1px solid #1b253c;
   }
@@ -160,13 +161,13 @@
     text-decoration: none;
     color: #d1f6f7;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
   }
   .Apis ul li a:hover {
     text-decoration: none;
     color: #1b253c;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
   }
 
@@ -174,16 +175,17 @@
     width: 75%;
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 0;
   }
 
   .Skills {
-    margin: 20px;
+    margin: 20px 10px 0;
   }
 
   .Skills h1 {
-    margin: 20px;
+    margin: 10px;
   }
 
   .Skills ul {
@@ -199,10 +201,10 @@
     line-height: 25px;
   }
   .Soft_Skills {
-    margin: 50% 20px 0 20px;
+    margin: 20px 10px 0;
   }
   .Soft_Skills h1 {
-    margin: 20px;
+    margin: 10px;
   }
   .Soft_Skills ul {
     background: rgba(0, 0, 0, 0.4);
@@ -229,8 +231,6 @@
   .div_pattern {
     width: 100%;
   }
-  .div_pattern footer {
-  }
   footer h1,
   p {
     text-align: center;
@@ -243,7 +243,7 @@
   }
 
   legend {
-    text-align: center;
+    margin: auto;
     color: #f5ebe0;
     font-size: 25px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -252,7 +252,7 @@
 
   .contenedor1_contact {
     margin: auto;
-    width: 400px;
+    width: 250px;
     padding: 30px;
     box-sizing: content-box;
   }

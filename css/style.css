@@ -229,7 +229,7 @@ aside div {
   line-height: 25px;
 }
 .Soft_Skills {
-  margin: 50% 20px 0 20px;
+  margin: 45% 20px 0;
 }
 .Soft_Skills h1 {
   margin: 20px;
@@ -259,8 +259,7 @@ aside div {
 .div_pattern {
   width: 100%;
 }
-.div_pattern footer {
-}
+
 footer h1,
 p {
   text-align: center;
