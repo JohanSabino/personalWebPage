@@ -295,4 +295,9 @@
     overflow: hidden;
     cursor: pointer;
   }
+  .badge-base {
+    width: 30%;
+    float: left;
+    position: static;
+  }
 }
