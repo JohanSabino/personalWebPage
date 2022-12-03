@@ -296,8 +296,8 @@
     cursor: pointer;
   }
   .badge-base {
-    width: 30%;
-    float: left;
+    width: 20%;
+    float: right;
     position: static;
   }
 }
